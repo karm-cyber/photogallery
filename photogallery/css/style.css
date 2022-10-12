@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+.container .heading{
+  background-color:;
+  margin-bottom: 40px;
+}
+.container .heading .headingname{
+  float:left;
+  color:rgb(230, 19, 65);
+  width: 30%;
+  margin-left: -200px;
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.container .heading .headingname span:hover{
+  color: aquamarine;
+}
+
+.flex-div{
+  display:flex;
+  align-items: center;
+  }
+
+  .nav-middle .mic-icon{
+    width:20px;
+    height:30px;
+    margin-top:px;
+    margin-right:200px;
+    }
+  
+.nav-middle .search-box{
+    border:1px solid #ccc;
+    margin-right:10px;
+    margin-left: 18%;
+    margin-top: px;
+    height: 40px;
+    padding:4px 8px;
+    border-radius:25px;
+    background-color: #2E2E2E;
+    align-items: center;
+    }
+.nav-middle .search-box:hover{
+    background-color: white;
+}
+.nav-middle .search-box:hover{
+    background-color: rgb(7, 7, 7);
+}
+.nav-middle .search-box .searchimg{
+    width:20px;
+    height:20px;
+    margin-top:2px;}
+.nav-middle .search-box input{
+    width:400px;
+    height: 30px;
+    color:aliceblue;
+
+    border:0;
+    outline:0;
+    background:transparent;
+    }
+    .container .heading .buttons{
+      float: right;
+      margin-right: -250px;
+      margin-top: -30px;
+      background-color: ;
+      
+      
+    }
+    .container .heading .buttons a{
+      text-decoration: none;
+      padding: 20px;
+    }
+    .container .heading .buttons a:hover{
+      color: aqua;
+    }
+
+.container .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.container .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .dream img{
+  width: 100%;
+  margin: 10px;
+  margin-right: 5px;
+
+  border-radius: 25px;
+  filter: grayscale(100%);
+  transition: 1s;
+  border: #222 1px solid;
+  background: cover;
+}
+.container .box .dream img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.container .btn{
+  margin: 30px 0 70px 0;
+  background: rgb(158, 231, 231);
+  padding: 10px 30px ;
+  border-radius: 5px;
+}
+.container .btn:hover{
+  background-color: aqua;
+}
+.container .btn a{
+ color: rgb(12, 9, 9);
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 769px){
+    .container .box{
+   flex-direction: column;
+  }
+
+.container .box .dream{
+  width: 100%;
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 643px){
+.container .heading{
+  width: 100%;
+}
+.container .heading h3{
+  font-size: 1em;
+
+}
+
+
+
+
+
+
+
+}
