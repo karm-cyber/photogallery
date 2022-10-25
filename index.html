@@ -5,58 +5,170 @@
     <meta name="Karmeshwar marbade" content="youtubes/w3school/google.com">
     </head>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-        }
-        body{
-            background-color: black;
-        }
+        /* doct;ype css */
 
-        header{
-            background-color: aqua;
-            height: 20vh;
-            width: 100%;
-        }
-        h1{
-            text-align: center;
-        }
-        ul{
-            display: inline-block;
-            padding: 50px;
-            text
+*{
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+    font-family: 
+}
+body{
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(13, 15, 15);
+  }
+  .position ul .text{
+    float:left;
+    margin-left: -800px;
+  }
+ h4, h3{
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  .position ul .text .textlogo{
+    font-size: 50px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #0ebb61;
+    padding-top: 10px;
+  }
+  .position ul .text span{
+    font-size: 50px;
+    font-family: "Lucida Console", Courier, monospace;
+    color: rgb(243, 13, 139);
+  }
+  
+  li {
+    float: left;
+    margin: 5px;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, :hover .dropbtn {
+    background-color: rgb(37, 219, 210);
+   
+  }
+  
+  li.more {
+    display: inline-block;
+  }
+  
+  .more-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .more-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .more-content a:hover {background-color: #1bcae9;}
+  
+  .more:hover .more-content {
+    display: block;
+  }
 
-        }
-        a{
-            text-decoration: none;
-            border:1px solid black;
-            padding:10px;
-            border-radius: 10px;
-            margin-left:20vh;
-        }
-        a:hover{
-            background-color: rgb(224, 238, 238);
-        }
+  .header .position ul{
+    padding-left: 70%;
+  }
+  .darken{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0,0,0,0.7);
+  }
+  .home{
+    height: 80vh;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .home .homeposition{
+    background-color:;
+    padding-top: 100px;
+    width: 50%;
+    height: 70vh;
+    float: left;
+    text-align: center;
+    
+  }
+  .home .homeposition h4{
+    color: #1bd1e9;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .home .homeposition h2{
+    color: rgb(27, 218, 91);
+    font-size: 60px;
+    font-family:"Courier New",monospace;
+    padding: px;
+    
+  }
+  .home .homeposition span{
+    color: #b8cc09;
+    font-family:"Courier New",monospace
+  }
+  .home .homeposition h3{
+    color: #1be2e9;
+    font-size: 30px;
+    padding: 20px;
+  }
+
+
 
     </style>
-   <body class="body">
-    <header>
-        <h1>click on given buttons there check my projects</h1>
-     <ul>
-        <il><a href="photogallery/index.html">PhotoGallery</a></il>
-     </ul>
-     <ul>
-        <il><a href="">working</a></il>
-     </ul>
-     <ul>
-        <il><a href="">working</a></il>
-     </ul>
-     <ul>
-        <il><a href="">working</a></il>
-     </ul>
-    </header>
-   </body>
+   <body>
+        <div class="header">
+            <div class="position">
+                <ul>
+                    <div class="text">
+                       <h2 class="textlogo"> Portf<span>olio</span></h2>
+                    </div>
+                    <li><a href="#home">Home</a></li>
+                    <li class="contact">
+                        <a href="#contact">Cantact</a>
+                    </li>
+                    <li class="more">
+                        <a href="javascript:void(0)" class="dropbtn">More services</a>
+                      <div class="more-content">
+                        <a href="#">My Services</a>
+                        <a href="#">My works</a>
+                        <a href="#">My projects</a>
+                      </div>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <div class="home" id="home">
+            <div class="darken">
+                <div class="homeposition">
+                    <h4>Hello, My Name is</h4>
+                    <h2>KARMESHWAR<span> MARBADE</span></h2>
+                    <h3> I"m front end web developer</h3>
+                </div>
+               
+             </div>
+        </div>
+    
+    </body>
 
 </html>
    
