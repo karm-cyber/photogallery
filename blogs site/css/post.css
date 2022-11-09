@@ -60,6 +60,14 @@ nav .menu a{
 }
 .maincontent .upload textarea{
     margin-left: 20vh;
+    margin-bottom: 20px;
+}
+.maincontent .btn a{
+    position: relative;
+    left: 48%;
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px;
+    
 }
 
 
