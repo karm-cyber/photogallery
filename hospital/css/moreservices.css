@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#colbox{
+    margin: 20px;
+    margin-left: 50px;
+}
+#colbox h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.topbox{
+    float: left;
+    width: 21%;
+    height: auto;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 20px;
+}
+.topbox .dp{
+    width: 40%;
+    height: 20vh;
+    background-color: beige;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.topbox .dp img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.topbox .infotext{
+    width: 90%;
+   
+    margin: auto;
+    padding: 10px;
+
+}
+.topbox .infotext h6{
+    text-align: center;
+    font-weight: bold;
+}
