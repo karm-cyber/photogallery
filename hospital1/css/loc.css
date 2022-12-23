@@ -1,0 +1,51 @@
+/* Loction section */
+.locBox{
+    margin: 50px;
+    width: 100%;
+    height: auto;
+    
+    }
+    .locBox h1{
+        text-align: center;
+        font-weight: bold;
+       
+    }
+     
+    .locBox .location{
+        width: 100%;
+        height: auto;
+    }
+    .locBox .location .boxL1{
+        float: left;
+        width: 21%;
+        height: 50vh;
+        background-color: aqua;
+        border-radius: 10px;
+        margin: 20px;
+        border-bottom: #0c0101 solid 5px;
+    }
+    .locBox .location .boxL1 .imgL{
+        margin: auto;
+        width: 40%;
+        height: auto;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+    .locBox .location .boxL1 .imgL img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .locBox .location .boxL1 .textL{
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+       padding: 10px;
+    }
+    .locBox .location .boxL1 .textL a{
+     text-decoration: none;
+     color: #0c0101;
+     
+    }
+    
+    

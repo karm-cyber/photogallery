@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:  "Poppins", sans-serif;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-image: url(../img/banner.jpg);
+   
+}
+header .icon{
+    width: 4%;
+    height: auto;
+    padding: 5px;
+    float: left;
+}
+header .icon img{
+    width: 100%;
+    height: 100%;
+}
+header .headbanner{
+    float: left;
+    padding: 10px;
+}
+
+
+
+/* side bar click function */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(36, 34, 34, 0.7);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0d0202;
+    display: block;
+    transition: 0.3s;
+    margin: 5px;
+    background-color: rgba(231, 235, 12, 0.961);
+    font-weight: bold;
+  }
+  
+  .sidenav a:hover {
+   background-color: aqua;
+   color: #0c0101;
+  }
+  .span{
+    font-size:30px;
+    cursor:pointer;
+    border: black solid 0.5px;
+    background-color: white;
+    float: right;
+   
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    border: none;
+    background-color: transparent;
+    color: red;
+  }
+  .sidenav .closebtn:hover{
+    background-color: transparent;
+  }
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+ 
+#background{
+   
+    width: 100%;
+    height: auto;
+    background-image: url(../img/Banner-Doctors.png);
+    border-bottom: #0c0101 solid 5px;
+}
+.home .text1{
+ width: 50%;
+ float: ;
+
+}
+.home .text1 .textbox1{
+    width: 80%;
+    margin: auto;
+    background-color: transparent;
+    padding: 50px;
+}
+.home .text1 .textbox1 button{
+    padding: 10px;
+    color: rgb(23, 23, 22);
+    font-weight: bold;
+    background-color: rgba(231, 235, 12, 0.961);
+    border:none;
+    border-radius: 5px;
+}
+.home .text1 .textbox1 button:hover{
+    background-color: aqua;
+}
+.home h1 span{
+    font-size: 70px;
+    font-family: "FreestyleScript-Regular";
+    color:#0f76bb;
+    font-weight: bold;
+}
+.home .text1 h2{
+    font-weight: 200;
+}
+
+@media screen and (max-width: 450px) {
+    header .icon{
+        width: 10%;
+    }
+    .home .text1 .textbox1{
+        width: 100%;
+        padding: 20px;
+    }
+    .home .text1{
+        width: 100%;
+        
+       
+       }
+  }
+
+  /* about page css */
+  .aboutimg{
+    background-image: url(../img/about2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-bottom: solid 5px #0c0101 ;
+  }
+  .aboutimg .textbox2{
+    width: 60%;
+    
+  }
+  .aboutimg .text2{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+  }
+  .aboutimg .text2 button{
+    padding: 10px;
+    background-color:  rgba(231, 235, 12, 0.961);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .aboutimg .text2 button:hover{
+    background-color: aqua;
+  }
+  .aboutimg .text1 ul li{
+   
+  }
+
+  @media screen and (max-width: 450px) {
+    .aboutimg .textbox2{
+        width: 100%; 
+      }
+      .aboutimg .text2{
+        width: 100%;
+        padding: 20px;
+      }
+  }
+
+  /* services section css */
+
+  .Stext{
+    width: 100%;
+   
+  }
+  .Stext .servicebox{
+    width: 100%;
+    margin-top: 50px;
+   
+  }
+  .Stext h1{
+    text-align: center;
+  }
+  .Stext p{
+    text-align: center;
+  }
+  .topbox{
+    float: left;
+    width: 21%;
+    height: 70vh;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 20px;
+}
+ 
+.topbox:hover{
+    background-color:rgba(231, 235, 12, 0.961) ;
+}
+ 
+
+.topbox .dp{
+    width: 40%;
+    height: 20vh;
+    background-color: beige;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.topbox .dp img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.topbox .infotext{
+    width: 90%;
+   
+    margin: auto;
+    padding: 10px;
+
+}
+.topbox .infotext h6{
+    text-align: center;
+    font-weight: bold;
+}
+.Stext .btn{
+  
+   width: 100%;
+   margin-bottom: 20px;
+  
+}
+.Stext .btn button{
+    padding: 10px;
+    background-color:  rgba(231, 235, 12, 0.961);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.Stext .btn button:hover{
+    background-color:aqua ;
+}
+#services{
+    border-bottom: #0c0101 solid 5px;
+}
+@media screen and (max-width: 1000px) {
+    .topbox{
+       
+        width: 60%;
+        height: 50vh;
+        background-color: aqua;
+        border-radius: 10px;
+        float: none;
+        margin: auto;
+       
+    }
+  }
+@media screen and (max-width: 450px) {
+    .topbox{
+        width: 90%;
+    }
+  }
+
+
+  /* Loction section */
+  .topbox1{
+    float: left;
+    width: 21%;
+    height: 50vh;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 20px;
+}
+ 
+.topbox1:hover{
+    background-color:rgba(231, 235, 12, 0.961) ;
+}
+ 
+
+.topbox1 .dp{
+    width: 40%;
+    height: 20vh;
+    background-color: beige;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(15, 15, 14);
+}
+.topbox1 .dp img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.topbox1 .infotext{
+    width: 90%;
+   
+    margin: auto;
+    padding: 10px;
+
+}
+.topbox1 .infotext h6{
+    text-align: center;
+    font-weight: bold;
+}
+#location{
+    border-bottom: #0c0101 5px solid;
+}
+@media screen and (max-width: 1000px) {
+    .topbox1{
+       
+        width: 60%;
+        height: 50vh;
+        background-color: aqua;
+        border-radius: 10px;
+        float: none;
+        margin: auto;
+       
+    }
+  }
+@media screen and (max-width: 450px) {
+    .topbox1{
+        width: 90%;
+    }
+  }
+
+
+/* footer css */
+.footer{
+    width: 100%;
+    height: 60vh;
+    
+}
+.footer .tab{
+    width: 21%;
+    height: auto;
+    padding: 20px;
+    float: left;
+    margin: 20px;
+
+}
+.footer .tab a{
+    display: block;
+    color: wheat;
+}
+footer{
+    border-bottom: #0c0101 20px solid;
+    background-color: #0f76bb;
+}
+@media screen and (max-width: 450px) {
+    .footer .tab{
+        width: 90%;
+        margin-top: -20px;
+    }
+    footer{
+        border:none;
+        height: 130vh;
+    }
+  }
