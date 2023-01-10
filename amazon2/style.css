@@ -1,0 +1,788 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color:black;
+}
+
+.img{
+    width: 12%;
+    height: 60px;
+    background-color: black;
+    float: left;
+}
+
+.searchbar1{
+    width: 58%;
+    height: 60px;
+    background-color: black;
+    float: left;
+}
+.searchbar1 .Lbox{
+    width: 20%;
+    height: 60px;
+    background-color:transparent;
+    float: left;
+}
+.searchbar1 .Lbox .login{
+    width: 80%;
+    height: 45px;
+    padding: 5px 1px ;
+    background-color:transparent;
+    margin: 5px;
+    border: 0.5px solid rgb(229, 165, 63); 
+}
+
+.searchbar1 .Lbox .login a{
+    text-decoration: none;
+}
+.searchbar1 .Lbox .login p{
+    text-align: center;
+    font-size: 10px;
+    color: rgb(203, 209, 215);
+}
+.searchbar1 .Lbox .login p span{
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+}
+.searchbar1 .Sbox{
+    width: 75%;
+    height: 35px;
+    background-color: black;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.Sbox .S1{
+    width: 8%;
+    height: 35px;
+    background-color: rgb(246, 182, 100);
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+}
+.Sbox .S2{
+    width: 82%;
+    height: 35px;
+    border: 0.5px solid white;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(234, 230, 224);
+    float: left;
+}
+.Sbox .S2 input{
+    width: 100%;
+    height: 100%;
+    outline:none;
+    padding-left: 10px;
+    border: none;
+}
+.Sbox .S3{
+    width: 8%;
+    height: 35px;
+    background-color: rgb(250, 167, 12);
+    float: left;
+    border-radius: 0px 5px 5px 0px;
+}
+ 
+.other{
+    width: 30%;
+    height: 60px;
+    background-color: transparent;
+    float: left;
+}
+
+.navbar .box1{
+    width: auto;
+    height: 45px;
+    background-color: black;
+    float: left;
+    margin: 5px;
+    padding: 8px 4px;
+    border: 0.5px solid rgb(229, 144, 8);
+}
+
+.navbar .box1 p{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+    color: white;
+}
+.navbar .box1 p{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    
+}
+.navbar .box1 p span{
+    font-size: 12px;
+    color: white;
+}
+.navbar .boxL{
+    width: 90%;
+    height: 45px;
+    margin: 5px;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar .box2{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.navbar .box2:hover{
+    
+}
+.navbar .boxline{
+    width: 0;
+    height: 0;
+}
+.navbar .box2 img{
+    height: 100%;
+}
+.middlebar{
+    width: 100%;
+    height: 50px;
+    background-color: #0a1c29;
+}
+.home1{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.home1 .aside{
+    width: 20%;
+    height: 600px;
+    background-color: white;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.aside .aside-1{
+    width: 80%;
+    height: 550px;
+    background-color:rgb(250, 249, 249);
+    margin: auto;
+    
+}
+.aside-1 .box-a{
+    width: 100%;
+    height: 105px;
+    background-color: rgb(243, 250, 243);
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.box-a ul{
+    list-style: none;
+}
+.home1 .main{
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    float: left;
+}
+.main .img-sider{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 5px
+}
+.img-sider .box-s{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    background-color: #ebeced;
+    border-radius: 10px;
+}
+/* Slider in home page */
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  background-color: #0a1c29;
+  border-radius: 10px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.img-sider .box-s .mySlides{
+    height: 250px; border-radius: 10px;
+}
+.img-sider .box-s .mySlides img{
+    height: 250px; border-radius: 10px;
+ }
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.main .box-m-1{
+    width: 45%;
+    height: 300px;
+    background-color:transparent;
+    float: left;
+    margin: 20px;
+    border-radius: 10px;
+    border: 0.5px solid orange;
+}
+.box-m-1 .box4{
+    width: 49%;
+    height: 49%;
+    background-color: #eff1f4;
+    float: left;
+    margin: 1px;
+    border-radius: 10px;
+}
+.box-m-1 .box22{
+    width: 49%;
+    height: 49%;
+    background-color: #ebeef0;
+    float: left;
+    margin: 1px;
+    border-radius: 10px;
+}
+.box-section{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    padding: 20px;
+    clear: both;
+}
+.box-section .boxcenter{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.boxcenter .twobox{
+    width: 50%;
+    height:350px;
+    float: left;
+    background-color: white;
+}
+.twobox .box-line{
+    width: 45%;
+    height:350px;
+    background-color: white;
+    float: left;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+.box-line .img{
+    width: 80%;
+    height: 50%;
+    background-color: transparent;
+    display: inline-block;
+    margin: 0px 10% 0px 10% ;
+}
+.box-line .tx1{
+    width: 80%;
+    height: 50%;
+    background-color: rgb(222, 233, 227);
+    display: inline-block;
+    margin: 0px 10% 0px 10% ;
+    padding: 10px;
+}
+.tx1 h2{
+    text-align: center;
+    font-weight: 200;
+}
+.tx1 span{
+    font-size: 10px;
+    font-weight: bold;
+}
+.tx1 p{
+    padding: 5px;
+    color: #222325;
+    text-align-last: justify;
+}
+.box-line h5{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: #0a1c29;
+}
+.footer .back{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(23, 40, 88);
+}
+.back a{
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+    padding: 10px;
+}
+.footerbox{
+    width: 100%;
+    height: 400px;
+    background-color: #0082e6;
+}
+.footerbox a{
+    text-decoration: none;
+    padding: 20px;
+   
+}
+.footerbox ul{
+    padding: 20px;
+    color: rgb(193, 185, 185);
+}
+.footerbox .boxF{
+    width: 50%;
+    background-color: #072338;
+    height: 400px;
+    float: left;
+}
+.boxF .F-1{
+    width: 45%;
+    height: 350px;
+    background-color: transparent;
+    float: left;
+   margin: 10px;
+}
+@media screen and (max-width:1000px){
+    .navbar{
+        height: auto;
+    }
+    .img{
+        width: 100%;
+        height: 60px;
+        float: none;
+    }
+    .navbar .box1{
+        width: auto;
+        height: 45px;
+        background-color: black;
+        float: left;
+        margin: 5px;
+        padding: 1px 4px;
+        border: 0.5px solid rgb(229, 144, 8);
+    }
+    .navbar .box2{
+        width: 50%;
+        height: 60px;
+    }
+    .navbar .boxline{
+        width: 50%;
+        height: 60px;
+    }
+    
+    .searchbar1{
+        width: 100%;
+        height: 60px;
+        float: none;
+    }
+    .searchbar1.Lbox .login{
+        border: 0.5px solid rgb(229, 144, 8);
+    }
+    .other{
+        width: 100%;
+        height: 60px;
+        float: none;
+    }
+    .main .box-m-1{
+        width: 40%;
+        height: 300px;
+        margin: 20px;
+        margin-left: 35px; 
+    }
+    .home1{
+        height;
+    }
+    .tx1 h2{
+       
+    }
+    .tx1 span{
+       
+    }
+    .tx1 p{
+       font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width:650px){
+    .navbar{
+        height: auto;
+    }
+    .img{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        float: none;
+    }
+    .navbar .box2{
+        width: 50%;
+        height: 60px;
+    }
+    .navbar .boxline{
+        width: 50%;
+        height: 60px;
+        background-color: transparent;
+    }
+    .navbar .boxL{
+        width: auto;
+        margin: 6px;
+        padding: 1px;
+    }
+    .navbar .boxL p{
+        font-size: 45px;
+        font-weight: bold;
+        
+    }
+    .navbar .boxL p span{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .searchbar1{
+        width: auto;
+        height: 60px;
+        float: none;
+    }
+    .searchbar1 .Lbox .login p{
+        font-size: 8px;
+    }
+    .searchbar1 .Lbox .login p span{
+       font-size: 10px;
+    }
+    .Sbox .S1{
+        width: 12%;
+    }
+    .Sbox .S2{
+        width: 76%;
+    }
+   
+    .Sbox .S3{
+        width: 12%;
+    }
+    .other{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        float: none;
+    }
+    .home1 .aside{
+        width: 0%;
+        visibility: hidden;
+    }
+    .home1 .main{
+        width: 100%;
+        height: 600px;
+        background-color: rgb(250, 246, 246);
+        float: left;
+    }
+    
+}
+
+@media screen and (max-width:850px){
+.box-section{
+    height: 1500px;
+} 
+}
+@media screen and (max-width:450px){
+    .navbar{
+        height: auto;
+    }
+    .img{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        float: none;
+    }
+    .navbar .box2{
+        width: 50%;
+        height: 60px;
+        background-color: black;
+    }
+    .navbar .boxline{
+        width: 50%;
+        height: 60px;
+        background-color: black;
+    }
+    
+    .searchbar1{
+        width: auto;
+        height: 60px;
+        float: none;
+    }
+    .searchbar1 .Sbox{
+        width: 75%;
+        height: 30;
+        background-color:;
+        float: left;
+        margin-top: 10px;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+     
+    .other{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        float: none;
+    }
+    .navbar .box1{
+        margin: 5px 2px;
+        padding: 0px 4px;
+    }
+    .navbar .box1 p{
+        font-weight: bold;
+        font-size: 12px;
+        margin: 5px;
+        color: white;
+    }
+    
+    .main .box-m-1{
+        width: 80%;
+        height: 240px;
+    }
+    .box-section{
+        width: 100%;
+        height: 1100px;
+        background-color: white;
+        padding: 20px;
+        clear: both;
+    }
+    
+    .boxcenter .twobox{
+       background-color: white;
+       height: 250px;
+      }
+    .twobox .box-line{
+        width: 42%;
+        height:250px;
+    
+    }
+    .home1 .main{
+        width: 100%;
+        height: 800px;
+        background-color: rgb(243, 236, 236);
+        float: left;
+    }
+    .boxF .F-1{
+        width: 43%;
+        height: 300px;
+       
+    }
+    .main .img-sider{
+        height: 200px;
+    }
+    .img-sider .box-s{
+        height: 150px;
+    }
+    .img-sider .box-s .mySlides{
+        height: 150px;
+    }
+    .img-sider .box-s .mySlides img{
+       height: 150px;
+    }
+    .tx1 p{
+        font-size: 7px;
+     }
+    
+}
+
+
+/* second nav bar coding */
+
+body{
+    font-family: montserrat;
+  }
+  nav{
+    background: #072338;
+    height:50px;
+    width: 100%;
+   
+  }
+  
+  nav ul{
+    float: left;
+  }
+   
+  nav ul li{
+    display: inline-block;
+    margin-top: 15px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 05px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px solid rgb(236, 228, 228);
+  
+  }
+ nav a.active,a:hover{
+    background: none;
+    transition: .5s;
+    color: red;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: left;
+    line-height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+    .middlebar ul{
+        z-index: 1;
+      }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+   .middlebar ul{
+      position: fixed;
+      width: 40%;
+      height: 100vh;
+      background:rgb(33, 31, 31);
+      top: 0px;
+      right: -100%;
+      transition: all .5s;
+      padding: 5px;
+      z-index: 1;
+    }
+    nav ul li{
+      display: block;
+      margin: 5px 0;
+      line-height: 30px;
+      
+    }
+    nav ul li a{
+      font-size: 20px;
+      border: none;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      right: 0;
+    }
+    
+    .boxcenter .twobox{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footerbox .boxF{
+        width: 100%;
+    }
+    .F-1 ul{
+        font-size: 12px;
+    }
+    .aside .aside-1{
+        width: 100%;
+        margin-left: 5px;
+  }
+  }
