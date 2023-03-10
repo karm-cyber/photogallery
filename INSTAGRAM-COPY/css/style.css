@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.background{
+    width: 100%;
+    height: 130vh;
+    background-color:#F5F6F7;
+    padding: 40px 0px;
+}
+.background .main{
+    width: 60%;
+    height: 600px;
+    background-color: aliceblue;
+    margin: auto;
+}
+.background .foot{
+   width: 60%;
+   height: 80px;
+   background-color: transparent;
+   margin: auto;
+   padding: 10px;
+}
+.background .main .box1{
+    width: 49%;
+    height: 580px;
+    background-color: rgb(4, 23, 40);
+    float: left;
+    margin: 2px 4px 0px 2px;
+}
+.background .main .box2{
+    width: 49%;
+    height: 580px;
+    background-color: transparent;
+    float: left;
+    margin: 2px 0px 4px 2px;
+}
+.box2 .innerbox{
+    width: 92%;
+    height: 580px;
+    background-color: #F5F6F7;
+    margin: auto;
+}
+.innerbox .login{
+    width: 100%;
+    height: 380px;
+    background-color: white;
+    border: rgb(197, 192, 192) solid 0.3px;
+    border-radius: 2px;
+}
+.login .insta-logo{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 1px;
+}
+.insta-logo img{
+    margin: auto;
+    width: 50%;
+
+}
+.login .logbox{
+    width: 80%;
+    height: 250px;
+    background-color: transparent;
+    margin: auto;
+}
+.logbox input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 0.5px solid rgb(144, 143, 141);
+    border-radius: 2px;
+}
+.logbox button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(84, 83, 83);
+    background-color: #74a8ca;
+    color: white;
+}
+.logbox h6{
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logbox hr{
+    width: 30%;
+    margin: 5px;
+}
+.logbox h5{
+    text-align: center;
+    font-size: 16px;
+}
+.logbox h4{
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+    padding: 20px 0px;
+}
+h4 a{
+    color: rgb(183, 179, 173);
+}
+.innerbox .box-S{
+    width: 100%;
+    background-color: white;
+    border: rgb(176, 173, 173) solid 0.5px;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.box-S h6{
+    text-align: center;
+    padding: 20px;
+
+}
+.innerbox h3{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.innerbox .apps{
+    width: 70%;
+    height: 40px;
+    background-color: transparent;
+    margin: auto;
+}
+.apps .G-M-box{
+    width: 42%;
+    height: 40px;
+    float: left;
+    background-color: #fff;
+    margin: 0px 5px;
+}
+.foot .B1 a{
+    font-size: 12px;
+    color: rgb(117, 116, 116);
+    padding:3px ;
+}
+.foot .B2 h4{
+    text-align: center;
+    color:rgb(61, 60, 60);
+}
+.B2 h4 a{
+    padding: 0px 5px;
+}
+
+
+
+@media(max-width:1000px){
+    .background{
+        width: 100%;
+        height: 100vh;
+    }
+    .background .main{
+        width: 70%;
+    }
+    .background .foot{
+        width: 70%;
+     }
+}
+
+@media(max-width:800px){
+    .background .main{
+        width: 80%;
+    }
+    .background .foot{
+        width: 80%;
+     }
+}
+@media(max-width:700px){
+    .background .main .box1{
+        display: none;
+    }
+    .background .main .box2{
+        width: 100%;
+    }
+    .background .main{
+        width: 70%;
+    }
+    .background .foot{
+        width: 80%;
+     }
+}
+@media(max-width:500px){
+    .background .main .box1{
+        display: none;
+    }
+    .background .main .box2{
+        width: 100%;
+    }
+    .background .main{
+        width: 80%;
+    }
+    .background .foot{
+        width: 100%;
+     }
+}
